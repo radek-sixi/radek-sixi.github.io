@@ -1,4 +1,4 @@
-# rbrus.github.io
+# radek-sixi.github.io
 
 Personal site and writing of Radoslaw B. Plain HTML and one stylesheet; no build step.
 
