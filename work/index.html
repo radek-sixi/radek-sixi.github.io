@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moved to radeksixi.github.io — Radek (Sixi)</title>
+  <meta name="description" content="This blog has moved from radek-sixi.github.io to radeksixi.github.io, and my primary GitHub account is now @radeksixi.">
+  <meta name="color-scheme" content="light dark">
+  <link id="canonical-link" rel="canonical" href="https://radeksixi.github.io/work/">
+  <meta http-equiv="refresh" content="0; url=https://radeksixi.github.io/work/">
+  <meta property="og:title" content="Radek (Sixi) — Moved to radeksixi.github.io">
+  <meta property="og:description" content="My blog has moved to https://radeksixi.github.io/ and my GitHub account to @radeksixi.">
+  <meta property="og:url" content="https://radeksixi.github.io/work/">
+  <script>
+    (function () {
+      var path = window.location.pathname || "/";
+      var search = window.location.search || "";
+      var hash = window.location.hash || "";
+      var dest = "https://radeksixi.github.io" + path + search + hash;
+      var canonical = document.getElementById("canonical-link");
+      if (canonical) canonical.href = "https://radeksixi.github.io" + path;
+      window.location.replace(dest);
+    })();
+  </script>
+  <style>
+    :root {
+      --bg: #ffffff; --fg: #1f2328; --muted: #59636e; --line: #d1d9e0;
+      --link: #0969da; --accent: #c4530a; --card: #f6f8fa;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d1117; --fg: #e6edf3; --muted: #9198a1; --line: #30363d;
+        --link: #4493f8; --accent: #f0883e; --card: #161b22;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      padding: 24px; background: var(--bg); color: var(--fg);
+      font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    main {
+      max-width: 600px; width: 100%; border: 1px solid var(--line); border-radius: 12px;
+      padding: 28px 32px; background: var(--card);
+    }
+    .eyebrow {
+      font: 700 12px/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin: 0 0 8px;
+    }
+    h1 { font-size: 26px; line-height: 1.25; margin: 0 0 12px; letter-spacing: -0.01em; }
+    p { margin: 0 0 16px; color: var(--muted); }
+    .cta {
+      display: inline-block; margin-top: 4px; padding: 9px 16px; border-radius: 8px;
+      background: var(--link); color: #ffffff; font-weight: 600; text-decoration: none; font-size: 15px;
+    }
+    .links {
+      margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--line);
+      font-size: 14px; color: var(--muted);
+    }
+    .links a { color: var(--link); text-underline-offset: 2px; }
+    code {
+      font: 0.88em ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Account &amp; Blog Moved</p>
+    <h1>Redirecting to radeksixi.github.io…</h1>
+    <p>
+      I have moved my blog from <code>radek-sixi.github.io</code> to
+      <a id="inline-link" href="https://radeksixi.github.io/work/"><strong>radeksixi.github.io</strong></a>
+      and my primary GitHub account to <a href="https://github.com/radeksixi"><strong>@radeksixi</strong></a>.
+    </p>
+    <a id="cta-link" class="cta" href="https://radeksixi.github.io/work/">Continue to radeksixi.github.io/work/ →</a>
+    <div class="links">
+      GitHub: <a href="https://github.com/radeksixi">github.com/radeksixi</a> ·
+      Blog: <a href="https://radeksixi.github.io/">radeksixi.github.io</a> ·
+      Portfolio: <a href="https://radeksixi.web.app/">radeksixi.web.app</a>
+    </div>
+  </main>
+  <script>
+    (function () {
+      var dest = "https://radeksixi.github.io" + (window.location.pathname || "/") + (window.location.search || "") + (window.location.hash || "");
+      var cta = document.getElementById("cta-link");
+      var inline = document.getElementById("inline-link");
+      if (cta) cta.href = dest;
+      if (inline) inline.href = dest;
+    })();
+  </script>
+</body>
+</html>
